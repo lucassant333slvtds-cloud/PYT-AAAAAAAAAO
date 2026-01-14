@@ -1,0 +1,5 @@
+Nome = str(input("Digite seu nome: "))
+print("Analizando...")
+print("Seu nome em letras maiusculas: {}".format(Nome.upper()))
+print("Seu nome em letras minusculas: {}".format(Nome.lower()))
+print("Seu nome tem {} letras".format(len(Nome)))
